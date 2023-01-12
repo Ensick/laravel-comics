@@ -1,0 +1,119 @@
+footer{
+
+    background-image: url('../img/footer-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .cont-footer{
+
+        .cont-footer-top{
+
+            width: 70%;
+            margin-inline: auto;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .cont-footer-left{
+
+            padding: 70px 0;
+            display: flex;
+
+            .cont-ul{
+
+                padding-inline-end: 30px;
+
+                h3{
+
+                    color: white;
+                    padding: 5px 0;
+                }
+
+                ul{
+
+                    li{
+
+                        padding-bottom: 5px;
+                        list-style-type: none;
+                        color: rgb(133, 131, 131);
+                        cursor: pointer;
+
+                        &:hover{
+
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+
+        .cont-footer-right{
+
+            background-image: url('../img/dc-logo-bg.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 45%;
+        }
+
+    }
+
+    .cont-footer-bottom{
+
+        background-color: rgba(48, 48, 48, 1);
+        padding: 55px 0;
+
+        .cont-footer-btt{
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 70%;
+            margin-inline: auto;
+
+            div{
+
+                .btn-footer{
+
+                    border: 2px solid rgba(12, 124, 236, 1);
+                    padding: 15px;
+                    background-color: rgba(48, 48, 48, 1);
+                    color: white;
+                    cursor: pointer;
+
+                    &:hover{
+
+                        box-shadow: 2px 0px 10px rgba(12, 124, 236, 1);
+                    }
+                }
+            }
+
+
+            .social{
+
+                display: flex;
+                align-items: center;
+
+                h3{
+
+                    color: rgba(12, 124, 236, 1);
+                    padding-inline-end: 15px;
+                }
+
+                img{
+
+                    width: 50px;
+                    margin-inline-end: 10px;
+                    cursor: pointer;
+
+                    &:hover{
+
+                        border-radius: 50%;
+                        box-shadow: 0px 0px 15px rgba(12, 124, 236, 1);
+                    }
+                }
+            }
+        }
+    }
+   
+
+}
