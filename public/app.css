@@ -122,16 +122,15 @@ nav ul li a:hover {
   height: 400px;
   position: relative;
 }
-
-.label-jumbo {
+.jumbo .label-jumbo {
   background-color: rgb(2, 130, 249);
   color: white;
   padding: 15px;
   font-weight: bold;
   filter: brightness(0.8);
   position: absolute;
-  top: -103px;
-  left: 11px;
+  bottom: -6%;
+  left: 20%;
 }
 
 .btn-blue {
@@ -152,7 +151,6 @@ nav ul li a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  position: relative;
 }
 
 .cont-card {
@@ -221,65 +219,7 @@ nav ul li a:hover {
   padding: 50px 0;
 }
 
-.show-cont-top {
-  color: white;
-  position: relative;
-}
-.show-cont-top .cont-poster {
-  width: 200px;
+.show-cont-top img.show-poster {
+  width: 100px;
   height: 200px;
-  position: absolute;
-  top: -340px;
-  left: 0;
-}
-.show-cont-top .cont-poster img.show-poster {
-  width: 100%;
-}
-
-.show-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.show-content .show-cont-right {
-  flex-basis: 67%;
-}
-.show-content .show-cont-right h2 {
-  font-size: 2.3rem;
-  font-weight: bold;
-  padding-bottom: 10px;
-}
-.show-content .show-cont-right .info-cont {
-  display: flex;
-  align-items: center;
-  padding-bottom: 20px;
-}
-.show-content .show-cont-right .info-cont .price {
-  display: flex;
-  background-color: #55BA59;
-  padding: 20px;
-  flex-grow: 1;
-  justify-content: space-between;
-  align-items: center;
-}
-.show-content .show-cont-right .info-cont .price span {
-  display: inline-block;
-  color: black;
-  font-weight: bold;
-}
-.show-content .show-cont-right .info-cont .available {
-  background-color: #55BA59;
-  padding: 20px;
-}
-.show-content .show-cont-right .info-cont .available span {
-  display: inline-block;
-  color: black;
-  font-weight: bold;
-}
-.show-content .show-cont-right p {
-  font-size: 1.2rem;
-  line-height: 30px;
-}
-.show-content .show-cont-left {
-  flex-basis: 30%;
 }

@@ -1,7 +1,9 @@
 <nav class="header-cont">
 
     <div>
-      <img src="{{ asset('img/dc-logo.png') }}" alt="logo">
+      <a href="/">
+        <img src="{{ asset('img/dc-logo.png') }}" alt="logo">
+      </a>
     </div>
 
     <div>
@@ -42,7 +44,5 @@
   </nav>
 
 <div class="jumbo">
-    <span class="label-jumbo">
-        CURRENT SERIES
-    </span>
+    
 </div>

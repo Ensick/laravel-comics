@@ -51,18 +51,20 @@ img{
     height: 400px;
     position: relative;
 
-    .label-jumbo{
-
-        background-color: rgba(2, 130, 249, 1);
-        color: white;
-        padding: 15px;
-        font-weight: bold;
-        filter: brightness(0.80);
-        position: absolute;
-        bottom: -6%;
-        left: 20%;
-    }
 }
+
+.label-jumbo{
+
+  background-color: rgba(2, 130, 249, 1);
+  color: white;
+  padding: 15px;
+  font-weight: bold;
+  filter: brightness(0.80);
+  position: absolute;
+  top: -103px;
+  left: 11px;
+}
+
 
  .btn-blue{
 

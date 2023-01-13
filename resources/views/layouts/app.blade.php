@@ -14,13 +14,10 @@
         </header>
 
         <main>
+            
             <section class="section-1">
                 <div class="main-top">
                     @yield('main-content')
-                </div>
-                
-                <div class="cont-button">
-                    <span class="btn-blue">LOAD MORE</span>
                 </div>
             </section>
 
