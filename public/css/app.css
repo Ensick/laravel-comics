@@ -247,7 +247,7 @@ nav ul li a:hover {
 .show-content .show-cont-right h2 {
   font-size: 2.3rem;
   font-weight: bold;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 .show-content .show-cont-right .info-cont {
   display: flex;
